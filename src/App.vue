@@ -1,19 +1,16 @@
 <template>
   <div id="app">
     <NavBar></NavBar>
-    <Parent></Parent>
     <router-view />
   </div>
 </template>
 
 <script>
 import NavBar from '@/components/NavBar.vue'
-import Parent from '@/components/Parent.vue'
 
 export default {
   components: {
-    NavBar,
-    Parent
+    NavBar
   }
 }
 </script>
